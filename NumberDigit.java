@@ -153,7 +153,9 @@ public class NumberDigit {
         }
         int LCM=(M*N)/hcf;
         System.out.println(LCM);
-    }
+    }  
+
+     
 
 
 //Q14 Shift Last Digit to First    
