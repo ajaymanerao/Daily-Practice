@@ -5,9 +5,8 @@ public class ShiftFirsttoLast {
         int temp=arr[0];
         for(int i=0;i<arr.length-1;i++){
             arr[i]=arr[i+1];
-            arr[arr.length-1]=temp;
-
         }
+        arr[arr.length-1]=temp;
     }
 
     public static void LastFirst(int arr[]){
@@ -30,8 +29,8 @@ public class ShiftFirsttoLast {
     public static void main(String[] args) {
         int arr[]={10,20,30,40,50};
         display(arr);
-        //shiftLast(arr);
-        LastFirst(arr);
+        shiftLast(arr);
+        //LastFirst(arr);
         display(arr);
     }
 }
