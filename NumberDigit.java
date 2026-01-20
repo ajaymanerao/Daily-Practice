@@ -66,7 +66,6 @@ public class NumberDigit {
 
 
 //Q6 Reverse a given number
-   
     public static void Question6(int N){
       int num=N;
       while(num>0){
