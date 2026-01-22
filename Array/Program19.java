@@ -19,10 +19,6 @@ public class Program19 {
         }
         System.out.println();
     }
-
-
-
-
     public static void main(String[] args) {
         int arr[]={123,235,6754,3257,64,2367,288,35,645,374};
         program19(arr);
