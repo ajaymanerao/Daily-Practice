@@ -13,10 +13,9 @@ public class Program20 {
                 digit++;
             }
 
-            int power=(int)Math.pow(10, digit);
-            int rem=num%power;
-            
-            arr[i]=rem*10+firstdigit;
+            int power=(int)Math.pow(10, digit);  //1234
+            int rem=num%power;                     //1234%1000=234
+            arr[i]=rem*10+firstdigit;              //234*10+1=2341
         }
 
         for(int i=0;i<arr.length;i++){
