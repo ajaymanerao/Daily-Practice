@@ -9,18 +9,8 @@ for(int i=1;i<=n;i++){
         }
 
     }
-    System.out.print("Prime Number :-");
+     
     if(count==2){
-        System.out.print(i+" ");
-    }
-    System.out.println();
-    System.out.print("Even Number :-");
-    if(i%2==0){
-        System.out.print(i+" ");
-    }
-    System.out.println();
-    System.out.print("Odd Number :-");
-    if(i%2!=0){
         System.out.print(i+" ");
     }
     }
