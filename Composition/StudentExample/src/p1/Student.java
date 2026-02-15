@@ -21,9 +21,9 @@ this.parentInfo=parentInfo;
 public String toString(){                                          
 return 
        "Id :"+basic.getId()+"\n" +
-       "First Name : "+basic.getFirstName()+"\n" +
+       -"First Name : "+basic.getFirstName()+"\n" +
        "Last Name : "+basic.getLastName()+"\n" +
-       "Gender : "+basic.getGender()+
+       "Gender : "+basic.getGender()+"\n" +
        "Date Of Birth : "+basic.getDateOfBirth()+"\n" +
        "Age : "+basic.getAge()+"\n" +
        "Email : "+contact.getEmail()+"\n" +

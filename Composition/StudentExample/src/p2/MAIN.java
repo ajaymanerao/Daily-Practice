@@ -7,7 +7,7 @@ public static void main(String [] args){
 
 Basic b1=new Basic(101,"Ajay", "Anerao", "Male", LocalDate.of(2003, 5, 28), 23); 
 Contact c1=new Contact("ajayanerao7@gmail.com", "7620659878", "9579912924");
-AcademicInfo a1=new AcademicInfo("111","Electronics & Telecommunication", 7, 75,"Sinhgad College Of Engineering Pune", "SPPU Univesity Pune", "2021", "2025");
+AcademicInfo a1=new AcademicInfo("111","Electronics & Telecommunication", 8, 75,"Sinhgad College Of Engineering Pune", "SPPU Univesity Pune", "2021", "2025");
 Address a2= new Address("301", "Near to Human Mandhir Benal", "Tq. Loha, Dist. Nanded", "Maharashtra","India", 431708);
 OtherInfo o1=new OtherInfo("AB+", "Indian", "General");
 ParentInfo p1=new ParentInfo("Madhavrao", "Vice-Principal", "Jaishri", "HouseWife", 1200000.00);
