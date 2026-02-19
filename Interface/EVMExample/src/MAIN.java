@@ -18,7 +18,7 @@ int vote=sc.nextInt();
 evm.GiveVote(vote);
 }
 
-System.out.println();
+System.out.println ();
 System.out.println ("--------------***Final Vote Counting***---------------------- ");
 evm.countVotes();
 System.out.println();
