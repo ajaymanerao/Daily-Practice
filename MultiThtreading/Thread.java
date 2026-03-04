@@ -1,19 +1,19 @@
-package MultiThtreading;
-import java.util.*;
+// package MultiThtreading;
+// import java.util.*;
 
-class MyThread extends Thread{
-    public void run(){
-        for(int i=1;i<=10;i++){
-            System.out.println(10*i);
-        }
-    }
-}
+// class MyThread extends Thread{
+//     public void run(){
+//         for(int i=1;i<=10;i++){
+//             System.out.println(10*i);
+//         }
+//     }
+// }
 
-public class Thread {
-    public static void main(String[] args) {
-        MyThread t1=new MyThread();
-        t1.run();
-    }
+// public class Thread {
+//     public static void main(String[] args) {
+//         MyThread t1=new MyThread();
+//         t1.run();
+//     }
 
     
-}
+// }
