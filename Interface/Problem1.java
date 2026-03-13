@@ -16,8 +16,8 @@ class Cat extends Animal{
 
 public class Problem1 {
     public static void main(String[] args) {
-        Animal a=new Cat();
-        a.eat();
+        Animal a=new Cat(); //Animal is reference Type and object type B  
+        a.eat(); ///obj.eat()
     }
     
 }
