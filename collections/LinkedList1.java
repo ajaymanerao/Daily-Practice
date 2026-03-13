@@ -25,11 +25,8 @@ public class LinkedList1 {
     movie.offerLast("Fandry");
     System.out.println(movie);
 
-
-    
-
-
-
+    movie.add(3, "Raja HinduStani");
+    System.out.println(movie);
     
 }
 }
